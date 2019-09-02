@@ -1,0 +1,7 @@
+my appoach for WNS Analytics Wizard 2019
+1. load train and test data set
+2. remove columns impression_id, impressiion_time and user_id from train and test data set
+3. create dummies of categorial variable
+4. init h2o environment
+5. convert train and test to h2o object
+6. used h2o gbm to train and predict test data
